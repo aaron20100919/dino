@@ -2,8 +2,8 @@
 #include <conio.h>
 using namespace std;
 
-const int N = 6;      // 行数
-const int M = 40;     // 列数
+const int N = 4;      // 行数
+const int M = 30;     // 列数
 const int FRESH = 60; // 帧数
 
 char background[N + 1][M + 1];
@@ -85,7 +85,7 @@ int main()
     int tick = 0, jian = FRESH;
     while (1)
     {
-        _sleep(1000.0 / FRESH);
+        _sleep(1000 / FRESH);
         if (_kbhit())
         {
             static unsigned char ch;
