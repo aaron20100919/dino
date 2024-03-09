@@ -102,6 +102,10 @@ int main()
                     dino.move(-1, 0);
                 }
             }
+            else if (ch == 'q')
+            {
+                break;
+            }
         }
         if (tick < jian)
         {
