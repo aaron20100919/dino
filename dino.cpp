@@ -148,7 +148,7 @@ int main()
             }
         }
         gotoxy(N, 0);
-        printf("Score: %lu", clock() / FRESH);
+        printf("Score: %lu", clock() * (1000 / (1000 / FRESH)) / 5000);
     }
 
     return 0;
